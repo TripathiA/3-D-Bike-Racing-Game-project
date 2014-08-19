@@ -1,0 +1,498 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow2.ui'
+**
+** Created by: Qt User Interface Compiler version 5.1.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW2_H
+#define UI_MAINWINDOW2_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QCommandLinkButton>
+#include <QtWidgets/QFrame>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_mainwindow2
+{
+public:
+    QWidget *centralwidget;
+    QLabel *label;
+    QLabel *label_ChooseLevel;
+    QCommandLinkButton *commandLinkButtonHomeInOptions;
+    QFrame *frame_2;
+    QFrame *frame_3;
+    QFrame *frame_4;
+    QFrame *frame_5;
+    QFrame *frame_6;
+    QFrame *frame_7;
+    QFrame *frame_8;
+    QFrame *frame_9;
+    QFrame *frame_10;
+    QFrame *frame_11;
+    QCommandLinkButton *commandLinkButton;
+    QCommandLinkButton *commandLinkButton_2;
+    QCommandLinkButton *commandLinkButton_3;
+    QCommandLinkButton *commandLinkButton_4;
+    QCommandLinkButton *commandLinkButton_5;
+    QCommandLinkButton *commandLinkButton_6;
+    QCommandLinkButton *commandLinkButton_7;
+    QCommandLinkButton *commandLinkButton_8;
+    QCommandLinkButton *commandLinkButton_9;
+    QCommandLinkButton *commandLinkButton_10;
+    QCommandLinkButton *commandLinkButton_11;
+    QCommandLinkButton *commandLinkButton_12;
+    QCommandLinkButton *commandLinkButton_13;
+    QCommandLinkButton *commandLinkButton_14;
+    QCommandLinkButton *commandLinkButton_15;
+    QCommandLinkButton *commandLinkButton_16;
+    QCommandLinkButton *commandLinkButton_17;
+    QCommandLinkButton *commandLinkButton_18;
+    QCommandLinkButton *commandLinkButton_19;
+    QCommandLinkButton *commandLinkButton_20;
+    QLabel *label_2;
+    QLineEdit *lineEdit;
+    QPushButton *pushButton;
+
+    void setupUi(QMainWindow *mainwindow2)
+    {
+        if (mainwindow2->objectName().isEmpty())
+            mainwindow2->setObjectName(QStringLiteral("mainwindow2"));
+        mainwindow2->resize(1280, 720);
+        centralwidget = new QWidget(mainwindow2);
+        centralwidget->setObjectName(QStringLiteral("centralwidget"));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(-240, -150, 1531, 871));
+        label->setAutoFillBackground(true);
+        label->setFrameShadow(QFrame::Sunken);
+        label->setPixmap(QPixmap(QString::fromUtf8(":/img/background.jpg")));
+        label->setScaledContents(true);
+        label_ChooseLevel = new QLabel(centralwidget);
+        label_ChooseLevel->setObjectName(QStringLiteral("label_ChooseLevel"));
+        label_ChooseLevel->setGeometry(QRect(470, 40, 311, 91));
+        commandLinkButtonHomeInOptions = new QCommandLinkButton(centralwidget);
+        commandLinkButtonHomeInOptions->setObjectName(QStringLiteral("commandLinkButtonHomeInOptions"));
+        commandLinkButtonHomeInOptions->setGeometry(QRect(20, 380, 121, 51));
+        QPalette palette;
+        QBrush brush(QColor(141, 141, 141, 255));
+        brush.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::ButtonText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::ButtonText, brush);
+        QBrush brush1(QColor(120, 120, 120, 255));
+        brush1.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButtonHomeInOptions->setPalette(palette);
+        commandLinkButtonHomeInOptions->setCursor(QCursor(Qt::PointingHandCursor));
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/img/home-icon.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        commandLinkButtonHomeInOptions->setIcon(icon);
+        commandLinkButtonHomeInOptions->setIconSize(QSize(40, 40));
+        commandLinkButtonHomeInOptions->setCheckable(false);
+        commandLinkButtonHomeInOptions->setAutoRepeat(false);
+        frame_2 = new QFrame(centralwidget);
+        frame_2->setObjectName(QStringLiteral("frame_2"));
+        frame_2->setGeometry(QRect(100, 530, 121, 131));
+        frame_2->setStyleSheet(QStringLiteral("image: url(:/img/g7_converted.bmp);"));
+        frame_2->setFrameShape(QFrame::StyledPanel);
+        frame_2->setFrameShadow(QFrame::Raised);
+        frame_3 = new QFrame(centralwidget);
+        frame_3->setObjectName(QStringLiteral("frame_3"));
+        frame_3->setGeometry(QRect(440, 540, 121, 131));
+        frame_3->setStyleSheet(QStringLiteral("image: url(:/img/g8_converted.bmp);"));
+        frame_3->setFrameShape(QFrame::StyledPanel);
+        frame_3->setFrameShadow(QFrame::Raised);
+        frame_4 = new QFrame(centralwidget);
+        frame_4->setObjectName(QStringLiteral("frame_4"));
+        frame_4->setGeometry(QRect(770, 550, 121, 131));
+        frame_4->setStyleSheet(QStringLiteral("image: url(:/img/g9_converted.bmp);"));
+        frame_4->setFrameShape(QFrame::StyledPanel);
+        frame_4->setFrameShadow(QFrame::Raised);
+        frame_5 = new QFrame(centralwidget);
+        frame_5->setObjectName(QStringLiteral("frame_5"));
+        frame_5->setGeometry(QRect(920, 160, 121, 131));
+        frame_5->setStyleSheet(QStringLiteral("image: url(:/img/g3_converted.bmp);"));
+        frame_5->setFrameShape(QFrame::StyledPanel);
+        frame_5->setFrameShadow(QFrame::Raised);
+        frame_6 = new QFrame(centralwidget);
+        frame_6->setObjectName(QStringLiteral("frame_6"));
+        frame_6->setGeometry(QRect(260, 170, 121, 131));
+        frame_6->setStyleSheet(QStringLiteral("image: url(:/img/g1_converted.bmp);"));
+        frame_6->setFrameShape(QFrame::StyledPanel);
+        frame_6->setFrameShadow(QFrame::Raised);
+        frame_7 = new QFrame(centralwidget);
+        frame_7->setObjectName(QStringLiteral("frame_7"));
+        frame_7->setGeometry(QRect(260, 360, 121, 131));
+        frame_7->setStyleSheet(QStringLiteral("image: url(:/img/g4_converted.bmp);"));
+        frame_7->setFrameShape(QFrame::StyledPanel);
+        frame_7->setFrameShadow(QFrame::Raised);
+        frame_8 = new QFrame(centralwidget);
+        frame_8->setObjectName(QStringLiteral("frame_8"));
+        frame_8->setGeometry(QRect(590, 360, 121, 131));
+        frame_8->setStyleSheet(QStringLiteral("image: url(:/img/g5_converted.bmp);"));
+        frame_8->setFrameShape(QFrame::StyledPanel);
+        frame_8->setFrameShadow(QFrame::Raised);
+        frame_9 = new QFrame(centralwidget);
+        frame_9->setObjectName(QStringLiteral("frame_9"));
+        frame_9->setGeometry(QRect(920, 350, 121, 131));
+        frame_9->setStyleSheet(QStringLiteral("image: url(:/img/g6_converted.bmp);"));
+        frame_9->setFrameShape(QFrame::StyledPanel);
+        frame_9->setFrameShadow(QFrame::Raised);
+        frame_10 = new QFrame(centralwidget);
+        frame_10->setObjectName(QStringLiteral("frame_10"));
+        frame_10->setGeometry(QRect(1090, 540, 121, 131));
+        frame_10->setStyleSheet(QStringLiteral("image: url(:/img/g10_converted.bmp);"));
+        frame_10->setFrameShape(QFrame::StyledPanel);
+        frame_10->setFrameShadow(QFrame::Raised);
+        frame_11 = new QFrame(centralwidget);
+        frame_11->setObjectName(QStringLiteral("frame_11"));
+        frame_11->setGeometry(QRect(590, 160, 121, 131));
+        frame_11->setStyleSheet(QStringLiteral("image: url(:/img/g2_converted.bmp);"));
+        frame_11->setFrameShape(QFrame::StyledPanel);
+        frame_11->setFrameShadow(QFrame::Raised);
+        commandLinkButton = new QCommandLinkButton(centralwidget);
+        commandLinkButton->setObjectName(QStringLiteral("commandLinkButton"));
+        commandLinkButton->setGeometry(QRect(220, 300, 81, 41));
+        QPalette palette1;
+        QBrush brush2(QColor(255, 0, 0, 255));
+        brush2.setStyle(Qt::SolidPattern);
+        palette1.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette1.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette1.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette1.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette1.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette1.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton->setPalette(palette1);
+        commandLinkButton_2 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_2->setObjectName(QStringLiteral("commandLinkButton_2"));
+        commandLinkButton_2->setGeometry(QRect(550, 300, 81, 41));
+        QPalette palette2;
+        palette2.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette2.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette2.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette2.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette2.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette2.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_2->setPalette(palette2);
+        commandLinkButton_3 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_3->setObjectName(QStringLiteral("commandLinkButton_3"));
+        commandLinkButton_3->setGeometry(QRect(220, 490, 81, 41));
+        QPalette palette3;
+        palette3.setBrush(QPalette::Active, QPalette::WindowText, brush2);
+        palette3.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette3.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette3.setBrush(QPalette::Active, QPalette::ToolTipText, brush2);
+        palette3.setBrush(QPalette::Inactive, QPalette::WindowText, brush2);
+        palette3.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette3.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette3.setBrush(QPalette::Inactive, QPalette::ToolTipText, brush2);
+        palette3.setBrush(QPalette::Disabled, QPalette::WindowText, brush1);
+        palette3.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette3.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        palette3.setBrush(QPalette::Disabled, QPalette::ToolTipText, brush2);
+        commandLinkButton_3->setPalette(palette3);
+        commandLinkButton_3->setAutoDefault(false);
+        commandLinkButton_4 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_4->setObjectName(QStringLiteral("commandLinkButton_4"));
+        commandLinkButton_4->setGeometry(QRect(60, 660, 81, 41));
+        QPalette palette4;
+        palette4.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette4.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette4.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette4.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette4.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette4.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_4->setPalette(palette4);
+        commandLinkButton_5 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_5->setObjectName(QStringLiteral("commandLinkButton_5"));
+        commandLinkButton_5->setGeometry(QRect(540, 490, 81, 41));
+        QPalette palette5;
+        palette5.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette5.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette5.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette5.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette5.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette5.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_5->setPalette(palette5);
+        commandLinkButton_6 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_6->setObjectName(QStringLiteral("commandLinkButton_6"));
+        commandLinkButton_6->setGeometry(QRect(390, 670, 81, 41));
+        QPalette palette6;
+        palette6.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette6.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette6.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette6.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette6.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette6.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_6->setPalette(palette6);
+        commandLinkButton_7 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_7->setObjectName(QStringLiteral("commandLinkButton_7"));
+        commandLinkButton_7->setGeometry(QRect(730, 680, 81, 41));
+        QPalette palette7;
+        palette7.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette7.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette7.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette7.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette7.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette7.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_7->setPalette(palette7);
+        commandLinkButton_8 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_8->setObjectName(QStringLiteral("commandLinkButton_8"));
+        commandLinkButton_8->setGeometry(QRect(880, 480, 81, 41));
+        QPalette palette8;
+        palette8.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette8.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette8.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette8.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette8.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette8.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_8->setPalette(palette8);
+        commandLinkButton_9 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_9->setObjectName(QStringLiteral("commandLinkButton_9"));
+        commandLinkButton_9->setGeometry(QRect(880, 290, 81, 41));
+        QPalette palette9;
+        palette9.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette9.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette9.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette9.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette9.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette9.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_9->setPalette(palette9);
+        commandLinkButton_10 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_10->setObjectName(QStringLiteral("commandLinkButton_10"));
+        commandLinkButton_10->setGeometry(QRect(1050, 680, 81, 41));
+        QPalette palette10;
+        palette10.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette10.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette10.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette10.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette10.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette10.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_10->setPalette(palette10);
+        commandLinkButton_11 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_11->setObjectName(QStringLiteral("commandLinkButton_11"));
+        commandLinkButton_11->setGeometry(QRect(160, 660, 81, 41));
+        QPalette palette11;
+        palette11.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette11.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette11.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette11.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette11.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette11.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_11->setPalette(palette11);
+        commandLinkButton_12 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_12->setObjectName(QStringLiteral("commandLinkButton_12"));
+        commandLinkButton_12->setGeometry(QRect(480, 670, 81, 41));
+        QPalette palette12;
+        palette12.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette12.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette12.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette12.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette12.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette12.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_12->setPalette(palette12);
+        commandLinkButton_13 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_13->setObjectName(QStringLiteral("commandLinkButton_13"));
+        commandLinkButton_13->setGeometry(QRect(660, 490, 81, 41));
+        QPalette palette13;
+        palette13.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette13.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette13.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette13.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette13.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette13.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_13->setPalette(palette13);
+        commandLinkButton_14 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_14->setObjectName(QStringLiteral("commandLinkButton_14"));
+        commandLinkButton_14->setGeometry(QRect(320, 490, 81, 41));
+        QPalette palette14;
+        palette14.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette14.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette14.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette14.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette14.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette14.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_14->setPalette(palette14);
+        commandLinkButton_15 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_15->setObjectName(QStringLiteral("commandLinkButton_15"));
+        commandLinkButton_15->setGeometry(QRect(330, 300, 81, 41));
+        QPalette palette15;
+        palette15.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette15.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette15.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette15.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette15.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette15.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_15->setPalette(palette15);
+        commandLinkButton_16 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_16->setObjectName(QStringLiteral("commandLinkButton_16"));
+        commandLinkButton_16->setGeometry(QRect(980, 290, 81, 41));
+        QPalette palette16;
+        palette16.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette16.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette16.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette16.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette16.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette16.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_16->setPalette(palette16);
+        commandLinkButton_17 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_17->setObjectName(QStringLiteral("commandLinkButton_17"));
+        commandLinkButton_17->setGeometry(QRect(1170, 680, 81, 41));
+        QPalette palette17;
+        palette17.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette17.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette17.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette17.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette17.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette17.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_17->setPalette(palette17);
+        commandLinkButton_18 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_18->setObjectName(QStringLiteral("commandLinkButton_18"));
+        commandLinkButton_18->setGeometry(QRect(660, 300, 81, 41));
+        QPalette palette18;
+        palette18.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette18.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette18.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette18.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette18.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette18.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_18->setPalette(palette18);
+        commandLinkButton_19 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_19->setObjectName(QStringLiteral("commandLinkButton_19"));
+        commandLinkButton_19->setGeometry(QRect(840, 680, 81, 41));
+        QPalette palette19;
+        palette19.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette19.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette19.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette19.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette19.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette19.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_19->setPalette(palette19);
+        commandLinkButton_20 = new QCommandLinkButton(centralwidget);
+        commandLinkButton_20->setObjectName(QStringLiteral("commandLinkButton_20"));
+        commandLinkButton_20->setGeometry(QRect(990, 480, 81, 41));
+        QPalette palette20;
+        palette20.setBrush(QPalette::Active, QPalette::Text, brush2);
+        palette20.setBrush(QPalette::Active, QPalette::ButtonText, brush2);
+        palette20.setBrush(QPalette::Inactive, QPalette::Text, brush2);
+        palette20.setBrush(QPalette::Inactive, QPalette::ButtonText, brush2);
+        palette20.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette20.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        commandLinkButton_20->setPalette(palette20);
+        label_2 = new QLabel(centralwidget);
+        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setGeometry(QRect(910, 30, 131, 31));
+        QPalette palette21;
+        QBrush brush3(QColor(138, 138, 138, 255));
+        brush3.setStyle(Qt::SolidPattern);
+        palette21.setBrush(QPalette::Active, QPalette::WindowText, brush3);
+        QBrush brush4(QColor(154, 154, 154, 255));
+        brush4.setStyle(Qt::SolidPattern);
+        palette21.setBrush(QPalette::Active, QPalette::Text, brush4);
+        palette21.setBrush(QPalette::Inactive, QPalette::WindowText, brush3);
+        palette21.setBrush(QPalette::Inactive, QPalette::Text, brush4);
+        palette21.setBrush(QPalette::Disabled, QPalette::WindowText, brush1);
+        palette21.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        label_2->setPalette(palette21);
+        QFont font;
+        font.setPointSize(16);
+        label_2->setFont(font);
+        lineEdit = new QLineEdit(centralwidget);
+        lineEdit->setObjectName(QStringLiteral("lineEdit"));
+        lineEdit->setGeometry(QRect(1050, 40, 113, 20));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setGeometry(QRect(1170, 40, 41, 23));
+        mainwindow2->setCentralWidget(centralwidget);
+        label->raise();
+        label_ChooseLevel->raise();
+        commandLinkButtonHomeInOptions->raise();
+        frame_11->raise();
+        commandLinkButton->raise();
+        commandLinkButton_2->raise();
+        commandLinkButton_3->raise();
+        commandLinkButton_4->raise();
+        commandLinkButton_5->raise();
+        commandLinkButton_6->raise();
+        commandLinkButton_7->raise();
+        commandLinkButton_8->raise();
+        commandLinkButton_9->raise();
+        commandLinkButton_10->raise();
+        frame_6->raise();
+        frame_7->raise();
+        frame_2->raise();
+        frame_3->raise();
+        frame_8->raise();
+        frame_4->raise();
+        frame_10->raise();
+        frame_9->raise();
+        frame_5->raise();
+        commandLinkButton_11->raise();
+        commandLinkButton_12->raise();
+        commandLinkButton_13->raise();
+        commandLinkButton_14->raise();
+        commandLinkButton_15->raise();
+        commandLinkButton_16->raise();
+        commandLinkButton_17->raise();
+        commandLinkButton_18->raise();
+        commandLinkButton_19->raise();
+        commandLinkButton_20->raise();
+        label_2->raise();
+        lineEdit->raise();
+        pushButton->raise();
+
+        retranslateUi(mainwindow2);
+
+        QMetaObject::connectSlotsByName(mainwindow2);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *mainwindow2)
+    {
+        mainwindow2->setWindowTitle(QApplication::translate("mainwindow2", "MainWindow", 0));
+        label->setText(QString());
+        label_ChooseLevel->setText(QApplication::translate("mainwindow2", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; text-decoration: underline; color:#e29a1e;\">CHOOSE LEVEL</span></p></body></html>", 0));
+        commandLinkButtonHomeInOptions->setText(QApplication::translate("mainwindow2", "HOME", 0));
+        commandLinkButton->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_2->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_3->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_4->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_5->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_6->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_7->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_8->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_9->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_10->setText(QApplication::translate("mainwindow2", "EASY", 0));
+        commandLinkButton_11->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_12->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_13->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_14->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_15->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_16->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_17->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_18->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_19->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        commandLinkButton_20->setText(QApplication::translate("mainwindow2", "HARD", 0));
+        label_2->setText(QApplication::translate("mainwindow2", "Enter Name :", 0));
+        pushButton->setText(QApplication::translate("mainwindow2", "OK", 0));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class mainwindow2: public Ui_mainwindow2 {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW2_H

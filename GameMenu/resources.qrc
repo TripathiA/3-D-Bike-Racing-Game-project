@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/background.jpg</file>
+        <file>img/help.txt</file>
+        <file>img/help-icon.ico</file>
+        <file>img/highscore.ico</file>
+        <file>img/home-icon.ico</file>
+        <file>img/Options-icon.ico</file>
+        <file>img/play-icon.ico</file>
+        <file>img/background2.jpg</file>
+        <file>img/Closeicon.ico</file>
+        <file>img/FUEL-Bike.jpg</file>
+        <file>img/mx1.jpg</file>
+        <file>img/g1_converted.bmp</file>
+        <file>img/g2_converted.bmp</file>
+        <file>img/g3_converted.bmp</file>
+        <file>img/g4_converted.bmp</file>
+        <file>img/g5_converted.bmp</file>
+        <file>img/g6_converted.bmp</file>
+        <file>img/g7_converted.bmp</file>
+        <file>img/g8_converted.bmp</file>
+        <file>img/g9_converted.bmp</file>
+        <file>img/g10_converted.bmp</file>
+    </qresource>
+</RCC>

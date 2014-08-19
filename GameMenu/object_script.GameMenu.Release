@@ -1,0 +1,14 @@
+INPUT(
+./release/main.o
+./release/mainwindow.o
+./release/mainwindow2.o
+./release/mainwindowhelp.o
+./release/mainwindowoptions.o
+./release/mainwindowhighscore.o
+./release/qrc_resources.o
+./release/moc_mainwindow.o
+./release/moc_mainwindow2.o
+./release/moc_mainwindowhelp.o
+./release/moc_mainwindowoptions.o
+./release/moc_mainwindowhighscore.o
+);
